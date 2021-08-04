@@ -1,4 +1,4 @@
-<template class="font-sans">
+<template>
   <section class="mx-auto bg-blue-300 h-20 flex justify-center items-center">
     <div class="sm:container flex h-20">
       <div class="w-1/3 h-20 flex justify-center items-center">
