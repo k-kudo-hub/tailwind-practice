@@ -10,7 +10,7 @@
             </div>
             <div class="w-4/5">
               <h3 class="font-bold text-lg">{{ item.title }}</h3>
-              <p>{{ item.explan }}</p>
+              <p class="leading-4">{{ item.explan }}</p>
             </div>
           </a>
         </li>
@@ -22,22 +22,28 @@
 <script>
 const menu = [
   {
-    title: "Blog",
-    explan: "Enjoy our blog!",
+    title: "New project",
+    explan: "Create new project",
     link: "#",
-    icon: "fa-blog"
+    icon: "fa-folder-plus"
   },
   {
-    title: "Developper Team", 
-    explan: "Great developer team!", 
+    title: "Import projects",
+    explan: "Import the project from somewhere",
     link: "#",
-    icon: "fa-file-code"
+    icon: "fa-file-import"
   },
   {
-    title: "Contact us", 
-    explan: "Free to contact us!", 
+    title: "Set organization",
+    explan: "Check your organization's settings",
     link: "#",
-    icon: "fa-comments"
+    icon: "fa-users-cog"
+  },
+  {
+    title: "Add Member",
+    explan: "Add new members to the organization",
+    link: "#",
+    icon: "fa-user-plus"
   },
 ]
 export default {
