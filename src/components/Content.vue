@@ -1,10 +1,19 @@
 <template>
-  <section class="h-content">
+  <section class="h-content flex">
+    <div class="w-1/4 min-h-full bg-gray-50 py-5 px-2">
 
+    </div>
+    <div class="w-1/2 min-h-full bg-white py-5 px-2">
+
+    </div>
+    <div class="w-1/4 min-h-full bg-gray-50 py-5 px-2">
+
+    </div>
   </section>
 </template>
 
 <script>
+
 export default {
   
 }
