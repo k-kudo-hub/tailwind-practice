@@ -2,8 +2,8 @@
   <section class="mx-auto bg-indigo-700 h-40">
     <div class="mx-auto py-4 px-5 flex max-w-3xl">
       <div class="w-1/2">
-        <h2 class="text-white text-3xl">Tailwind</h2>
-        <p class="text-white">tailwindCSS practice.</p>
+        <h2 class="text-white text-3xl">{{ siteTitle }}</h2>
+        <p class="text-white">{{ subTitle }}</p>
       </div>
       <div class="w-1/2 flex mx-auto">
         <div class="w-1/2">
@@ -28,8 +28,14 @@
 </template>
 
 <script>
+import site from '../site-data.js'
 export default {
-  
+  data(){
+    return {
+      siteTitle: site.TITLE,
+      subTitle: site.SUB_TITLE
+    }
+  }
 }
 </script>
 

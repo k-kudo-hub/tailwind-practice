@@ -4,7 +4,7 @@
       <div class="w-1/4 h-20 flex justify-center items-center">
         <h1 class="text-4xl text-center text-white font-bold">
           <a href="/">
-            Tailwind
+            {{ siteTitle }}
           </a>
         </h1>
       </div>
@@ -21,7 +21,13 @@
 <script>
 import PullDown from './PullDown.vue'
 import SearchBar from './SearchBar.vue'
+import site from '../site-data.js'
 export default {
+  data(){
+    return {
+      siteTitle: site.TITLE
+    }
+  },
   components: {
     PullDown,
     SearchBar,
