@@ -1,8 +1,8 @@
 <template>
-  <section class="mx-auto bg-blue-300 h-16 flex justify-center items-center">
-    <div class="sm:container flex h-20">
-      <div class="w-1/4 h-20 flex justify-center items-center">
-        <h1 class="text-4xl text-center text-white font-bold">
+  <section class="sm:mx-auto bg-blue-300 h-16 flex justify-center items-center">
+    <div class="sm:container flex h-16">
+      <div class="w-1/4 h-16 flex justify-center items-center">
+        <h1 class="sm:text-2xl md:text-3xl lg:text-4xl text-center text-white font-bold text-md">
           <a href="/">
             {{ siteTitle }}
           </a>
