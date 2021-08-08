@@ -3,11 +3,8 @@
     <section class="w-1/4 min-h-full bg-gray-50 py-5 px-2">
       <SelfIntroduce/>
     </section>
-    <section class="w-1/2 min-h-full bg-white py-5 px-2">
+    <section class="w-3/4 min-h-full bg-white py-5 px-2">
       <ProjectList/>
-    </section>
-    <section class="w-1/4 min-h-full bg-gray-50 py-5 px-2">
-      <ActivityLog/>
     </section>
   </section>
 </template>
@@ -15,12 +12,10 @@
 <script>
 import SelfIntroduce from './SelfIntroduce.vue'
 import ProjectList from './ProjectList.vue'
-import ActivityLog from './ActivityLog.vue'
 export default {
   components: {
     SelfIntroduce,
     ProjectList,
-    ActivityLog,
   }
 }
 </script>
