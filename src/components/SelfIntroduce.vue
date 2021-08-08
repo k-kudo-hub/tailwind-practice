@@ -4,8 +4,10 @@
       <img src="../assets/logo.png" alt="" class="h-12 w-12 rounded-3xl">
     </div>
     <div class="w-2/3 py-2">
-      <h2 class="font-bold">Geoge Williams</h2>
-      <p class="text-gray-500 hover:text-gray-700 focus:text-gray-700 text-sm"><a href="#">@tailwind_0123</a></p>
+      <h2 class="font-bold">{{ user.name }}</h2>
+      <p class="text-gray-500 hover:text-gray-700 focus:text-gray-700 text-sm">
+        <a :href="user.link">@{{ user.id }}</a>
+      </p>
     </div>
   </div>
   <div class="h-32 w-full p-4 flex flex-col mb-2">
@@ -17,13 +19,13 @@
       <div class="h-1/2 flex">
         <i class="fas fa-user-friends mr-2 text-gray-500 w-1/12"></i>
         <p class="leading-3">
-          <a href="#" class="mr-1 text-gray-500 hover:text-black text-sm">124 followers</a>/
-          <a href="#" class="text-gray-500 hover:text-black text-sm">122 following</a>
+          <a href="#" class="mr-1 text-gray-500 hover:text-black text-sm">{{ user.followers }} followers</a>/
+          <a href="#" class="text-gray-500 hover:text-black text-sm">{{ user.following }} following</a>
         </p>
       </div>
       <div class="h-1/4 flex">
         <i class="fas fa-briefcase mr-2 text-gray-500 w-1/12"></i>
-        <a href="#" class="mr-1 text-gray-500 hover:text-black text-sm">12 projects</a>
+        <a href="#" class="mr-1 text-gray-500 hover:text-black text-sm">{{ user.projectCount }} projects</a>
       </div>
     </div>
     </div>
@@ -33,7 +35,14 @@
 export default {
   data(){
     return {
-
+      user: {
+        name: "Geoge Williams",
+        id: "tailwind_0123",
+        link: "#",
+        followers: 124,
+        folling: 122,
+        projectCount: 12,
+      }
     }
   }
 }
