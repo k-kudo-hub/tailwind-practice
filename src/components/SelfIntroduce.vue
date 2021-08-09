@@ -40,7 +40,7 @@ export default {
         id: "tailwind_0123",
         link: "#",
         followers: 124,
-        folling: 122,
+        following: 122,
         projectCount: 12,
       }
     }
