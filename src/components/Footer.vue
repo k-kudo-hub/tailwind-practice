@@ -2,8 +2,8 @@
   <footer class="mx-auto bg-indigo-700 min-h-40">
     <div class="mx-auto py-4 px-5 flex flex-col sm:flex-row max-w-3xl">
       <div class="sm:w-1/2 flex flex-col sm:mx-auto sm:text-left mb-2">
-        <h2 class="text-white text-3xl">{{ siteTitle }}</h2>
-        <p class="text-white">{{ subTitle }}</p>
+        <h2 class="text-white text-3xl">{{ site_title }}</h2>
+        <p class="text-white">{{ site_sub_title }}</p>
       </div>
       <div class="sm:w-1/2 flex mx-auto w-11/12 sm:w-full">
         <div class="w-1/2">
@@ -32,8 +32,8 @@ import site from '../site-data.js'
 export default {
   data(){
     return {
-      siteTitle: site.TITLE,
-      subTitle: site.SUB_TITLE
+      site_title: site.TITLE,
+      site_sub_title: site.SUB_TITLE
     }
   }
 }

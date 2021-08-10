@@ -4,7 +4,7 @@
       <div class="w-1/4 h-16 flex justify-center items-center">
         <h1 class="sm:text-2xl md:text-3xl lg:text-4xl text-center text-white font-bold text-md">
           <a href="/">
-            {{ siteTitle }}
+            {{ site_title }}
           </a>
         </h1>
       </div>
@@ -25,7 +25,7 @@ import site from '../site-data.js'
 export default {
   data(){
     return {
-      siteTitle: site.TITLE
+      site_title: site.TITLE
     }
   },
   components: {
