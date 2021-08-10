@@ -1,12 +1,12 @@
 <template>
-  <section class="h-content flex">
-    <section class="w-1/4 min-h-full bg-gray-50 py-5 px-2">
+  <div class="h-content flex">
+    <aside class="w-1/4 min-h-full bg-gray-50 py-5 px-2">
       <SelfIntroduce/>
-    </section>
+    </aside>
     <section class="w-3/4 min-h-full bg-white py-5 px-2">
       <ProjectList/>
     </section>
-  </section>
+  </div>
 </template>
 
 <script>

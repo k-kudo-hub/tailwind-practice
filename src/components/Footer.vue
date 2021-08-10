@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto bg-indigo-700 min-h-40">
+  <footer class="mx-auto bg-indigo-700 min-h-40">
     <div class="mx-auto py-4 px-5 flex flex-col sm:flex-row max-w-3xl">
       <div class="sm:w-1/2 flex flex-col sm:mx-auto sm:text-left mb-2">
         <h2 class="text-white text-3xl">{{ siteTitle }}</h2>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </footer>
 </template>
 
 <script>

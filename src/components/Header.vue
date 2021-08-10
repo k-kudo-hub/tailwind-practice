@@ -1,5 +1,5 @@
 <template>
-  <section class="sm:mx-auto bg-blue-300 h-16 flex justify-center items-center">
+  <header class="sm:mx-auto bg-blue-300 h-16 flex justify-center items-center">
     <div class="sm:container flex h-16">
       <div class="w-1/4 h-16 flex justify-center items-center">
         <h1 class="sm:text-2xl md:text-3xl lg:text-4xl text-center text-white font-bold text-md">
@@ -15,7 +15,7 @@
         <PullDown/>
       </div>
     </div>
-  </section>
+  </header>
 </template>
 
 <script>
