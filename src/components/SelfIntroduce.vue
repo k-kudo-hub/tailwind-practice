@@ -36,7 +36,7 @@ export default {
   data(){
     return {
       user: {
-        name: "Geoge Williams",
+        name: "George Williams",
         id: "tailwind_0123",
         link: "#",
         followers: 124,
