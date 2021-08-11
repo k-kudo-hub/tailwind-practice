@@ -1,5 +1,5 @@
 <template>
-  <div class="h-24 w-full p-4 flex mb-2">
+  <div class="h-24 w-full p-4 flex sm:mb-2">
     <div class="w-1/3 flex justify-center items-center">
       <img src="../assets/logo.png" alt="" class="h-12 w-12 rounded-3xl">
     </div>
@@ -10,11 +10,11 @@
       </p>
     </div>
   </div>
-  <div class="h-32 w-full p-4 flex flex-col mb-2">
-    <a href="#" class="w-11/12 mx-auto border border-blue-300 mb-3 p-2 rounded-3xl bg-blue-300 text-white text-center shadow-md hover:bg-blue-400 focus:bg-blue-400">New Project</a>
-    <a href="#" class="w-11/12 mx-auto border p-2 rounded-3xl shadow-md hover:bg-gray-200 focus:bg-gray-200 text-center">Invite Team</a>
+  <div class="sm:h-32 w-full sm:p-4 flex flex-col mb-2">
+    <a href="#" class="w-3/4 sm:w-11/12 mx-auto border border-blue-300 mb-3 p-1 sm:p-2 rounded-3xl bg-blue-300 text-white text-center shadow-md hover:bg-blue-400 focus:bg-blue-400">New Project</a>
+    <a href="#" class="w-3/4 sm:w-11/12 mx-auto border p-1 sm:p-2 rounded-3xl shadow-md hover:bg-gray-200 focus:bg-gray-200 text-center">Invite Team</a>
   </div>
-  <div class="h-32 container p-4 flex">
+  <div class="h-24 sm:h-32 container p-4 flex">
     <div class="mx-auto flex flex-col">
       <div class="h-1/2 flex">
         <i class="fas fa-user-friends mr-2 text-gray-500 w-1/12"></i>
