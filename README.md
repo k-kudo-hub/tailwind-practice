@@ -29,6 +29,12 @@ From this time, I was conscious of the meaning of each element while also learni
 ### Capture of Phone size
 ![Capture for Phone](./src/assets/capture_phone.png)
 
+## Require 🗝️
+
+| require | version  |
+| ------- | -------- |
+| node    | v12.18.3 |
+| npm     | v7.20.3  |
 
 ## How to set up ⚙
 
