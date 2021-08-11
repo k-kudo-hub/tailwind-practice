@@ -62,7 +62,21 @@ export default {
           id: "vue3-practice",
           language: "Vue.js",
           updated_at: "4h ago",
-        }
+        },
+        {
+          title: "Vite Practice",
+          stared: true,
+          id: "vite-practice",
+          language: "Vue.js",
+          updated_at: "1d ago",
+        },
+        {
+          title: "Javascript Practice",
+          stared: true,
+          id: "js-practice",
+          language: "Javascript",
+          updated_at: "5d ago",
+        },
       ]
     }
   },
